@@ -31,16 +31,6 @@ You need a userscript manager first — Tampermonkey (Chrome / Edge / Firefox), 
 - **Remembers your settings** (show/hide, opacity, colour, stacking) in your browser's `localStorage`.
 - **Attribution shown on the map** whenever the layer is on, as the OneMap licence requires.
 
-## What it connects to
-
-Map tiles from `www.onemap.gov.sg` are the only thing the script loads.
-
-- It only uses the browser's normal image loading to fetch tiles. There are no `fetch` or XHR calls, no analytics and no remote code.
-- It runs with `@grant none`. It has no `@connect`, `@require` or update URL, so the userscript manager gives it no extra powers and never fetches code for it.
-- It doesn't read your edits, account or cookies, and it never changes the map. The only thing it stores is its own settings.
-
-As with any map tile service, OneMap sees your IP address and which tiles your browser loads.
-
 ## Data and licence
 
 Map data © [OneMap](https://www.onemap.gov.sg/), Singapore Land Authority, made available under the [Singapore Open Data Licence](https://www.onemap.gov.sg/legal/opendatalicence.html).

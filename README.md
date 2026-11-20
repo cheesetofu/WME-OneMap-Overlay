@@ -8,9 +8,9 @@ This is not an official Waze or OneMap tool, and it comes as-is.
 
 ## Install
 
-1. Install a userscript manager: [Tampermonkey](https://www.tampermonkey.net/) (Chrome, Edge, Firefox) or [Violentmonkey](https://violentmonkey.github.io/).
-2. **Chrome only:** open `chrome://extensions`, click **Details** on Tampermonkey and turn on **Allow User Scripts**. If you don't see that toggle, turn on **Developer mode** at the top right instead. Without this, Chrome won't run the script and won't tell you why.
-3. Open [`wme-onemap-overlay.user.js`](../../raw/main/wme-onemap-overlay.user.js) and click **Install** when your userscript manager asks.
+> **Install from Greasy Fork:** [https://greasyfork.org/en/scripts/579472-wme-nlsc-overlay](https://greasyfork.org/en/scripts/606443-wme-onemap-overlay)]
+> 
+You need a userscript manager first — Tampermonkey (Chrome / Edge / Firefox), Violentmonkey, or Greasemonkey (Firefox). Once installed, open the Greasy Fork link and click Install this script; updates are delivered automatically on your userscript manager's check schedule.
 
 ## Usage
 
